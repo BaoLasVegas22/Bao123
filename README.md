@@ -13,3 +13,26 @@ If you are developing a production application, we recommend using TypeScript an
 
 ### Deploy lên server 
 - Câu lệnh gì để cài thư viện 
+
+```bash
+npm install
+```
+- Câu lệnh gì để biuld được dự án 
+
+```bash
+npm run build
+```
+### Tổ chức thư mục 
+
+1. Component
+2. Templates
+3. Pages
+4. Router
+5. Store
+6. Hooks - (hiện tại thì ít sử dụng)
+7. Common
+    7.1 utils
+    7.2 Helpers
+    7.3 Constants
+8. Services: (call api)
+
